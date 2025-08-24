@@ -57,9 +57,36 @@
                     </tr>
                 </tbody>
                 <tfoot>
-                    <td>Notes: All times subject to weather conditions</td>
+                    <td colspan="40"><strong>Notes:</strong> All times subject to weather conditions</td>
                 </tfoot>
             </table>
+        </section>
+        <section class="registration-form">
+            <form action="/server-program" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div></div>
+                    <label for="firstName">First Name *</label>
+                    <input type="text" name="firstName" id="firstName" required placeholder="Please enter First Name">
+                    <br>
+
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" name="lastName" id="lastName" required placeholder="Please enter Last Name">
+                    <br>
+
+                    <label for="email">Email Address *</label>
+                    <input type="email" name="email" id="email" required placeholder="youremail@example.com">
+                    <br>
+
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+(91)9*********" required>
+                    <br>
+
+                    <label for="dob">Date of Birth *</label>
+                    <input type="date" name="dob" id="dob" required>
+                    <br>
+                </fieldset>
+            </form>
         </section>
     </main>
 </body>
