@@ -33,12 +33,13 @@ const salesData = [15000, 23000, 18000, 31000, 27000];
 const salesTeam = ["Alex", "Beth", "Carl", "Dana", "Eva"];
 
 console.log("=== MONTHLY SALES REPORT ===");
+
 //forEach - Execute for each (no return)
 salesData.forEach((sale, index) => {
     console.log(`${salesData[index]} : $${sale.toLocaleString()}`);
 });
 
-// Return value
+// Return value (with map)
 const salesWithBonus = salesData.map((sale) => ({
     original: sale, 
     bonus: sale > 25000 ? sale * 0.1 : sale * 0.05,
