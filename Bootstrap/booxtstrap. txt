@@ -1,0 +1,26 @@
+USES:
+1. Saves time
+2. Responsive (Most powerful festure)
+3. Easy to use - well documented, straight forward to learn
+4. Customizable
+
+FEATURES:
+1. Mobile first philosophy
+2. Grid system
+3. Reusable components
+
+COMPETITORS:
+1. Foundation
+2. Bulma
+3. Taiwind CSS
+
+Responsive vs Adaptive:
+Responsive: A technique to make the web pages to render well in variety of device and sizes
+
+Relative vs Static Units:
+Static units: px, pt
+Relative units: %, em, rem, vw, vh
+
+
+
+
