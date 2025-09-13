@@ -90,9 +90,29 @@ for(const char of word) {
 
 // Traditional for loop
 for(let i = 0; i < word.length; i++) {
-    console.log(word[i]);
-    
+    console.log(word[i]);  
 }
+
+// =========================================
+// Unicode
+const smiley = "";
+console.log(smiley.length);
+const codePoint = smiley.codePointAt(0);
+console.log(codePoint);
+const newSmiley = String.fromCodePoint(128522);
+console.log(newSmiley);
+
+// ==========================================
+// Regex
+const sentence1 = "I have a cat and a dog";
+const regex = /a/;
+const matchIndex = sentence1.search(regex);
+console.log(matchIndex);
+
+const newSentenceObject = sentence1.replace(/a/g, 'X'); // g-global (Finds all occurances of a)
+console.log(newSentenceObject);
+
+
 
 
 

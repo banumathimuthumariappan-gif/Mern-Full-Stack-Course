@@ -1,0 +1,12 @@
+AI Coding Assistants:
+1. Increase productivity
+2. Code quality
+3. Accelerated the learning
+4. Reduced development time
+
+List of AI Coding assistants:
+1. GitHub copilot
+2. Amazon CodeWhisperer
+3. Codeium
+4. Tabline
+
