@@ -1,0 +1,76 @@
+JSON COURSE:
+
+What is JSON?
+
+JSON - JavaScript Object Notation - lightweight text based data interchange format.
+
+Key Points:
+
+1. Human readable format
+2. Language independent
+3. Widely used for APIs and web services.
+4. Standard for data exchange between client and server
+
+Importance of JSON:
+
+1. Simplicity - Easy to write and read.
+2. Light weight - Minimal overhead
+3. Universal - Supported by all modern programming languages
+4. Web Standard - Default format for REST APIs
+
+JSON Syntax:
+
+{
+	"key": "value",
+	"number": 42,
+	"boolean": true,
+	"null_value": null
+}
+
+JSON Data Types:
+
+Supported Types:
+1. String
+2. Number
+3. Boolean
+4. null
+5. Object
+
+
+
+Array Structure:
+
+{
+"employees": [
+{}, {}, {}
+]
+}
+
+Key difference between Object and Array
+
+Object | Array
+Unordered collection | Ordered Collection
+Key value pairs | Indexed value
+Access by key | Access by index
+{} | []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

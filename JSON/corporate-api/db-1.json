@@ -1,0 +1,34 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Banumathi",
+            "department": "Engineering",
+            "email": "banu123@gmail.com",
+            "salary": "200000",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "name": "Siva",
+            "department": "Engineering",
+            "email": "siva123@gmail.com",
+            "salary": "500000",
+            "isActive": true
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Engineering",
+            "location": "Building A",
+            "budget": 5000000
+        },
+        {
+            "id": 2,
+            "name": "Marketing",
+            "location": "Building A",
+            "budget": 3000000
+        }
+    ]
+}

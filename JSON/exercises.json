@@ -1,0 +1,35 @@
+{
+    "exercise1": {
+        "title": "Basic JSON structure",
+        "task": "Create employee profile",
+        "solution": {
+            "employee": {
+                "id": 1001,
+                "firstName": "Vinodh",
+                "lastName": "Kumar",
+                "email": "vinodh.mahendra@gamil.com",
+                "isActive": true,
+                "salary": null,
+                "joinDate": "2025-09-27"
+            }
+        }
+    },
+    "exercise2": {
+        "title": "JSON with arrays",
+        "task": "An employee with skills and projects",
+        "solution": {
+            "title": "Employee with skills and projects",
+            "solution": {
+                "employee": {
+                    "name": "Banu",
+                    "department": "IT",
+                    "skills": ["HTML", "CSS", "Js", "JSON"],
+                    "projects": [
+                        {"name": "Wellness api", "status": "inactive"},
+                        {"name": "Mobile apps", "status": "active"}
+                    ]
+                }
+            }
+        }
+    }
+}
